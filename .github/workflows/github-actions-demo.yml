@@ -12,7 +12,7 @@ on:
   
 jobs:
   Build:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - run: |
           echo 'The event that triggered this workflow was ${{ github.event_name }}'
